@@ -3,67 +3,106 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<header>
-		<h1>Justin Evangelista</h1>
-	</header>
+	
 	<div class="nav">
 
-		  <a href="#">Projects</a>
+		  <a href="#projects">Projects</a>
 		  <a target="_blank" href="Resume/justin-resume.pdf">Resume</a>
-		  <a href="https://justinjevangelista.wixsite.com/jjphotos">Photography</a>
-		  <a href="#">Contact</a>
+		  <a href="https://justinjevangelista.wixsite.com/sixtus">Photography</a>
+		  <a href="mailto:justin.j.evangelista@gmail.com">Contact</a>
 
 	</div>
 	<main class="coverWall">
 		<div class="aboutMe">
 			<!-- <img src="https://i.imgur.com/AfT5tFj.jpg" class="aboutMePicture"> -->
 				<div class="wordContainer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<h1 class="statement">
+						I'm Justin Evangelista, full stack web developer, US Marine, and photographer on the weekends.
+					</h1>
 				</div>
 		</div>
 		
 		<h2>Projects</h2>
 
-		<div class="projects">
+		<div id="projects">
 
+				<div id="doStuff">
+					<h3 class="projectTitle">Do Stuff!</h3>
+					<div class="projectImage">
+						<a href="https://do-stuff-justin.herokuapp.com/">
+							<img src="https://i.imgur.com/cSoqzkL.png" class="work1">
+						</a>
+					</div>
+						<div class="projectStatement">
+							The application allows you to find local events happening in Chicago! A frustration of mine was trying to figure out what will be happening in the upcoming weekend. There doesn't have to be any guess work anymore now that you know all the events. I have implemented a google maps API to show you where these events are located, so you can plan accordingly. Forthcoming features will include API events from Eventbrite and meetup to give you a deeper selection of categories and smaller events so that the user is really given every option!
+						</div>
+				</div>
 			
+				
 
-			<div id="petAdoption">
-				<h3>Wise Choice Pet Adoption</h3>
-				<a href="#">
-				<img src="https://i.imgur.com/Jc4cYl9.png" class="work1">
-				</a>
-			</div>
+				<div id="petAdoption">
+					
+					<h3 class="projectTitle">Wise Choice</h3>
+					<div class="projectImage">
+						<a href="https://wise-choice.herokuapp.com/">
+						<img src="https://i.imgur.com/Jc4cYl9.png" class="work1">
+						</a>
+					</div>
+					<div class="projectStatement">
+						
+							wiseChoice will display a list of pets for each user based on matches between the pet's personality and the user's lifestyle. If the user has children and a certain adoptable pet is not good with children, that pet will not be displayed to the user. If the user has limited home space and the pet is classified as high energy, that pet will not be displayed to the user. If the user has other pets in the household and the adoptable pet does not get along well with other pets, that pet will not be displayed to the user.
+							<br>
+							The goal is to find each pet a good home that they will flourish in, and avoid potential the potential problems of mismatched adoptions.
+							<br>
+							By filling out information about the user ahead of time, submitting an adoption application is as easy as the click of a button.
+						
+					</div>
+				</div>
 
-			<div id="tamagotchi">
-				<h3>Tamagotchi</h3>
-					<a href="#">
-						<img src="https://i.imgur.com/OtguWFM.png" class="work1">
-					</a>
-			</div>
-			
-		</div>
+				<div id="tamagotchi">
+					<h3 class="projectTitle">Tamagotchi</h3>
+					<div class="projectImage">
+						<a href="#">
+							<img src="https://i.imgur.com/OtguWFM.png" class="work1">
+						</a>
+					</div>
+					<div class="projectStatement">
+						
+							This is a very basic application and very first side-project of the widely popular game tamagotchi. I like to show where I came from, with zero knowledge of coding, to being able to make a full stack application. It is important to remember where you came from.
+						
+					</div>
+				</div>
+
+		</div>		
 
   </main>
 
   <footer>
-  	Contact me Here!
-  </footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; Justin Evangelista 2018</span>
+          </div>
+        </div>
+          <a href="https://www.instagram.com/___sixtus___/">
+        	<img class="socialLink" src="https://i.imgur.com/BuIKYK1.png">
+          </a>
+          <a href="https://www.linkedin.com/in/justin-evangelista-2175b3126/">
+            <img class="socialLink" src="https://i.imgur.com/1o1VtWz.png">
+          </a>
+          <a href="https://github.com/Just1nsan3">
+            <img class="socialLink" src="https://i.imgur.com/L1LesNp.png">
+          </a>
+      </div>
+    </footer>
 
 <script type="js/app.js"></script>
 </body>
-</html>
+</html> 
+
+
+
